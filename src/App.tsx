@@ -30,25 +30,52 @@ export default function BibliotecaPoetica() {
   const poemas = useMemo<Poema[]>(
     () => [
       {
-        titulo: 'La chica que parecía literatura',
+        titulo: 'Si yo fuera un libro',
         fecha: '28 Mayo 2026',
-        cancion: 'Lady Gaga — Always Remember Us This Way',
-        contenido:
-          'Hay personas que llegan como cualquier otra página, y luego estás tú, que pareces una biblioteca completa. A veces siento que tus ojos guardan historias antiguas y tranquilas, como esas novelas que uno relee solo para sentirse en casa.',
+        cancion: 'LAULTIMACENA. - Alvaro Diaz',
+        contenido: `¿Y por qué no sería un libro?
+
+Si yo fuera un libro, al sentir el tacto de tus manos mis hojas se arrugarían de nervios, temiendo romperme entre algo tan delicado como tú.
+Si fuera un libro, no podría mostrarte mis palabras con tranquilidad, porque tus hermosos ojos color canela, leyéndome fijamente, dejarían mis páginas en blanco.
+
+Y si yo fuera un libro, no escribiría historias para el mundo, ni lecciones, ni chistes destinados a cualquiera.
+Sería un libro hecho solamente de ti.
+Una poesía andante dedicada a tu existencia, a tu risa, a la forma en que habitas mis pensamientos incluso cuando no estás.
+
+Oh, mi amor…
+si yo fuera un libro, esperaría toda la vida a que volvieras a releerme una vez más.`,
       },
       {
-        titulo: 'Lluvia y café',
-        fecha: '14 Abril 2026',
-        cancion: 'Cigarettes After Sex — Apocalypse',
+        titulo: 'Libros',
+        fecha: '28 Mayo 2026',
+        cancion: 'INARROW62 — Alvaro Diaz',
         contenido:
-          'Si algún día me preguntaran cómo se siente la tranquilidad, probablemente hablaría de una noche lluviosa, una taza de café caliente y tú leyendo cerca de una ventana.',
+          `Dicen que hay libros que te cambian la vida,
+pero nadie me habló de lo que sucede cuando una persona se convierte en biblioteca entera.
+
+Porque contigo aprendí que hay miradas que se leen como poemas,
+silencios que parecen prólogos
+y abrazos que tienen el mismo efecto que quedarse despierto toda la noche terminando una historia que no quieres abandonar jamás.
+
+Si tú fueras un libro, no doblaría tus páginas por miedo a dañarte;
+memorizaría cada línea para llevarte conmigo incluso cuando no pudiera abrirte.
+
+Y qué peligro sería quererte…
+porque hay libros que uno disfruta,
+pero otros se vuelven necesidad.
+De esos que se releen en los días tristes,
+que se subrayan en secreto,
+que terminan llenos de marcas porque uno encontró refugio entre sus palabras.
+
+Tú serías exactamente ese tipo de libro.
+El que dejaría en mi mesa de noche para sentir que, incluso antes de dormir, todavía te tengo cerca.`,
       },
       {
-        titulo: 'Ojos color canela',
-        fecha: '6 Marzo 2026',
+        titulo: 'Noches con ella',
+        fecha: '25 Marzo 2026',
         cancion: 'Joji — Glimpse of Us',
         contenido:
-          'Intenté muchas veces describir tus ojos, pero siempre termino sintiendo que las palabras se quedan pequeñas. Hay miradas bonitas, y luego está la tuya.',
+          `la luna se iluminaba con su luz plateada como intentando igualar la belleza de tu sonrisa, los grillos tocaban sus violines al compás de tu voz y las ranas ufff las ranas, no paraban de decir la frase "es perfecta", y ahí me di cuenta que mis noches ya no son las mismas si estas en ellas`,
       },
     ],
     []
